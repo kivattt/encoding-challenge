@@ -13,6 +13,7 @@ import (
 
 const lookup = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 
+// Code taken from the encoding/base64 package in the Golang standard library, then edited
 func encode(str, realStr string) string {
 	if len(str) != len(realStr) {
 		panic("Epic fail")
