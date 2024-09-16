@@ -2,6 +2,7 @@
 ```console
 git clone https://github.com/kivattt/encoding-challenge
 cd encoding-challenge
+go mod tidy
 go build
 ```
 
